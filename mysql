@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T03:14:38.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SGXgWTu76zTGAI67qwxH" version="21.1.5" type="github" pages="2">
-  <diagram id="9vEL_aTF37jJ-JzKRqVW" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2023-04-08T03:45:48.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="x5HLjTIVDzhyUkk-VnGk" version="21.1.5" type="github" pages="2">
+  <diagram id="9vEL_aTF37jJ-JzKRqVW" name="redolog">
     <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -155,14 +155,122 @@
         <mxCell id="VZknAvyC0pC5Cmd-lRkQ-45" value="" style="ellipse;whiteSpace=wrap;html=1;container=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="VZknAvyC0pC5Cmd-lRkQ-55">
           <mxGeometry width="20" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-56" value="redo记录" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1540" y="395" width="120" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-57" value="表空间号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="424" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-58" value="数据页号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="464" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-59" value="偏移量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="504" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-60" value="修改数据长度" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="544" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-61" value="具体修改的数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="584" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5rndfH5mqZKDCLKyA4aS" name="第 2 页">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="5rndfH5mqZKDCLKyA4aS" name="binlog">
+    <mxGraphModel dx="2261" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kygdl1loShtP7_gs9jyl-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="13.75" width="1431" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-1" value="根据binlog还原&lt;br style=&quot;font-size: 20px;&quot;&gt;mysql实例" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-201.5" y="30" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-2" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;imageWidth=26;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="230" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-3" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="73" y="241" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-7" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="215" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=east;notch=0;fillColor=#fad9d5;fontSize=20;strokeColor=#ae4132;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-230" y="245" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-9" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=east;notch=0;fontSize=20;fillColor=#bac8d3;strokeColor=#23445d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-27" y="246" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-10" value="写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#bac8d3;fontSize=20;strokeColor=#23445d;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-129" y="120" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-12" value="MySQL-主" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="237.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-13" value="MySQL-备" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="769" y="246.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-14" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="217.5" width="90" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=east;notch=0;fillColor=#fad9d5;fontSize=20;strokeColor=#ae4132;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="252.5" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=west;notch=0;fontSize=20;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="669" y="251.5" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-17" value="写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="237.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-18" value="MySQL-主" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="415" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-19" value="MySQL-主" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="74" y="415" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-20" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="390" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-23" value="读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="400" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-24" value="MySQL-主" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-25" value="MySQL-从" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="771" y="405" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-26" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;fontStyle=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=east;notch=0;fillColor=#fad9d5;fontSize=20;strokeColor=#ae4132;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="415" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-28" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=west;notch=0;fontSize=20;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="671" y="410" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-29" value="写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="470" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-30" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="699" y="236.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.73;dx=22;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="435" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-32" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.73;dx=22;fillColor=#d0cee2;strokeColor=#56517e;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="435" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-33" value="读" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="701" y="395" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kygdl1loShtP7_gs9jyl-34" value="读写" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="400" width="60" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
