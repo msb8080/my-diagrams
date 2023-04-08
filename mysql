@@ -1,54 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T02:32:29.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2Ss-Qn-EbGsEL7OWxDwQ" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T02:44:19.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="93DJzYd5Ed6q8Za6qHfT" version="21.1.5" type="github" pages="2">
   <diagram id="9vEL_aTF37jJ-JzKRqVW" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-1" value="Server层" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Server层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="90" width="400" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="141" y="85" width="20" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-4" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-4" value="binlog&lt;br style=&quot;font-size: 20px;&quot;&gt;归档日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="270" y="220" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="390" y="220" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="460" y="220" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-10" value="存储引擎API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-10" value="存储引擎API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="310" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-11" value="InnoDB存储引擎层" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-11" value="InnoDB存储引擎层" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="469" width="400" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-12" value="redolog&lt;br style=&quot;font-size: 20px;&quot;&gt;重做日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-12" value="redolog&lt;br style=&quot;font-size: 20px;&quot;&gt;重做日志" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="509" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-13" value="MySQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-13" value="MySQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="60" y="325" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="270" y="380" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="330" y="380" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="390" y="380" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4EWMEHIbi63ABoTpL-Ew-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="4EWMEHIbi63ABoTpL-Ew-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=south;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="460" y="380" width="50" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" edge="1" parent="1" source="VZknAvyC0pC5Cmd-lRkQ-1" target="VZknAvyC0pC5Cmd-lRkQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="250" />
+              <mxPoint x="864" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-1" value="实例挂了或宕机" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="778.75" y="140" width="170" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-4" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="760" y="300" width="207.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-6" value="InnoDB存储引擎层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="803.75" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" edge="1" source="VZknAvyC0pC5Cmd-lRkQ-8" target="VZknAvyC0pC5Cmd-lRkQ-9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-8" value="重启" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1113.75" y="140" width="182.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontStyle=1" edge="1" parent="1" source="VZknAvyC0pC5Cmd-lRkQ-9" target="VZknAvyC0pC5Cmd-lRkQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-20" value="数据恢复" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontStyle=1" vertex="1" connectable="0" parent="VZknAvyC0pC5Cmd-lRkQ-18">
+          <mxGeometry x="-0.0957" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-9" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="300" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-10" value="InnoDB存储引擎层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1145" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.72;dx=23;direction=east;notch=0;fillColor=#97D077;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1000" y="325" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VZknAvyC0pC5Cmd-lRkQ-17" value="redo.file" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1540" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5rndfH5mqZKDCLKyA4aS" name="第 2 页">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
