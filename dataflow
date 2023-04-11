@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T05:18:05.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jPBX4WCl8NiAkeuhfYCx" version="21.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-11T05:34:51.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sGte4o9Z99rqAs4jfliY" version="21.1.5" type="github" pages="2">
   <diagram name="流程图" id="pyuGfck4kLcA1176LxZJ">
-    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,11 +343,23 @@
         <mxCell id="Wmscka8Yn_VIur-0aKvA-104" value="根据上一轮答案类型出答案&lt;br&gt;结束" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=none;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="2240" y="870" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ACq0HTz0HMzuJzOG_xSb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ACq0HTz0HMzuJzOG_xSb-1" target="ACq0HTz0HMzuJzOG_xSb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ACq0HTz0HMzuJzOG_xSb-1" value="根据解析到的图谱节点出答案开始" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=none;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2600" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="2610" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ACq0HTz0HMzuJzOG_xSb-2" value="根据解析到的图谱节点出答案结束" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=none;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="2580" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="2600" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACq0HTz0HMzuJzOG_xSb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ACq0HTz0HMzuJzOG_xSb-3" target="ACq0HTz0HMzuJzOG_xSb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACq0HTz0HMzuJzOG_xSb-3" value="更新用户状态中的belief信息" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffcccc;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACq0HTz0HMzuJzOG_xSb-5" value="将qabeliefQueue信息合并到belief中" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=none;rounded=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="575" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
