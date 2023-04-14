@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T03:10:06.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QpgFAjOjczTxhsOzEf7j" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T03:16:20.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XWHiQjT2CBWceEEwOJMu" version="21.1.7" type="github">
   <diagram name="第 1 页" id="C4fxQFTH_58REzYznOzk">
     <mxGraphModel dx="3915" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,10 +199,10 @@
         <mxCell id="DAKK35HiMI3o6xVc4FOC-71" value="createCommander 创建指令器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
           <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-72" value="checkValid&amp;nbsp; 指令信息合法性校验" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-73" value="instantiateCommandInfo&amp;nbsp; comand info 实例化成具体的指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
           <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-73" value="instantiateCommandInfo&amp;nbsp; comand info 实例化成具体的指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-72" value="checkValid&amp;nbsp; 指令信息合法性校验" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
           <mxGeometry y="78" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-74" value="getType&amp;nbsp; 指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
@@ -221,6 +221,42 @@
           <mxGeometry y="78" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-98" value="getName 指令名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-91">
+          <mxGeometry y="104" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-99" value="HttpCommanderInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1830" y="1730" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-100" value="host" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-99">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-104" value="port" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-99">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-105" value="path" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-99">
+          <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-106" value="httpMethod" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-99">
+          <mxGeometry y="104" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-107" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DAKK35HiMI3o6xVc4FOC-99" target="DAKK35HiMI3o6xVc4FOC-68">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1550" y="1710" as="sourcePoint" />
+            <mxPoint x="-1390" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-108" value="HttpCommander" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="1370" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-109" value="getCommanderInfo 指令描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-108">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-110" value="open&amp;nbsp; 打开和初始化指令" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-108">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-111" value="run&amp;nbsp; 运行指令" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-108">
+          <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-112" value="getName 指令名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-108">
           <mxGeometry y="104" width="170" height="26" as="geometry" />
         </mxCell>
       </root>
