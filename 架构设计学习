@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T03:03:06.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vJo6a4RgkaRVclluCPfb" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T03:10:06.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QpgFAjOjczTxhsOzEf7j" version="21.1.7" type="github">
   <diagram name="第 1 页" id="C4fxQFTH_58REzYznOzk">
     <mxGraphModel dx="3915" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,19 +83,19 @@
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-33" value="CommnaderFactory&lt;br&gt;(Interface)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1774" y="1120" width="140" height="130" as="geometry" />
+          <mxGeometry x="-1270" y="1240" width="350" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-34" value="createCommander" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-34" value="createCommander 创建指令器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-35" value="checkValid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-35" value="checkValid&amp;nbsp; 指令信息合法性校验" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-36" value="instantiateCommandInfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-36" value="instantiateCommandInfo&amp;nbsp; comand info 实例化成具体的指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DAKK35HiMI3o6xVc4FOC-37" value="getType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
-          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-37" value="getType&amp;nbsp; 指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-33">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-38" value="注释信息&lt;br&gt;@param&lt;br&gt;@return&lt;br&gt;@author&lt;br&gt;@date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="658" width="100" height="112" as="geometry" />
@@ -128,7 +128,7 @@
           <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-49" value="CommanderInfoEntity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="1260" width="180" height="242" as="geometry" />
+          <mxGeometry x="-1850" y="1150" width="180" height="242" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-50" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-49">
           <mxGeometry y="26" width="180" height="26" as="geometry" />
@@ -158,7 +158,7 @@
           <mxGeometry y="216" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-59" value="CommanderInfo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="1260" width="230" height="242" as="geometry" />
+          <mxGeometry x="-1850" y="1430" width="230" height="242" as="geometry" />
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-60" value="id 指令id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-59">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -186,6 +186,42 @@
         </mxCell>
         <mxCell id="DAKK35HiMI3o6xVc4FOC-68" value="instantiationInfo 实例化需要的信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-59">
           <mxGeometry y="216" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-69" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.486;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DAKK35HiMI3o6xVc4FOC-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1100" y="1490" as="sourcePoint" />
+            <mxPoint x="-1110" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-70" value="HttpCommanderFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="1500" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-71" value="createCommander 创建指令器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+          <mxGeometry y="26" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-72" value="checkValid&amp;nbsp; 指令信息合法性校验" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+          <mxGeometry y="52" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-73" value="instantiateCommandInfo&amp;nbsp; comand info 实例化成具体的指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-74" value="getType&amp;nbsp; 指令类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-70">
+          <mxGeometry y="104" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-91" value="Commnader&lt;br&gt;(Interface)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="1200" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-92" value="getCommanderInfo 指令描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-91">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-96" value="open&amp;nbsp; 打开和初始化指令" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-91">
+          <mxGeometry y="52" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-97" value="run&amp;nbsp; 运行指令" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-91">
+          <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DAKK35HiMI3o6xVc4FOC-98" value="getName 指令名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DAKK35HiMI3o6xVc4FOC-91">
+          <mxGeometry y="104" width="170" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
