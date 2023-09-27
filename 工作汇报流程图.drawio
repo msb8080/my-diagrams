@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T09:02:09.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yeFin12QgDTeLTdjLXoK" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T09:03:09.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vsphNrRYbfPppGcIuYEW" version="21.7.0" type="github">
   <diagram name="第 1 页" id="-DtATAsQaKTqwAKupJKH">
     <mxGraphModel dx="989" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,24 +103,24 @@
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-35" value="autogpt-ner结果" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=3;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="JhKfk-GGo2rU0hKPJ-zP-79">
           <mxGeometry x="82.505" y="90.25309352517985" width="108.75" height="30.215827338129493" as="geometry" />
         </mxCell>
-        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-90" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#fd0808;" edge="1" parent="1">
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-90" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#fd0808;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="259" as="sourcePoint" />
-            <mxPoint x="690" y="259" as="targetPoint" />
+            <mxPoint x="550" y="250" as="sourcePoint" />
+            <mxPoint x="680" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-92" value="&lt;font color=&quot;#ff0000&quot;&gt;深度解析处理流程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JhKfk-GGo2rU0hKPJ-zP-90">
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-92" value="&lt;font color=&quot;#ff0000&quot;&gt;深度解析处理流程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="JhKfk-GGo2rU0hKPJ-zP-90">
           <mxGeometry x="-0.0592" y="-3" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-93" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-93" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="299" as="sourcePoint" />
-            <mxPoint x="690" y="299" as="targetPoint" />
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="680" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-94" value="功能依赖服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JhKfk-GGo2rU0hKPJ-zP-93">
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-94" value="功能依赖服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="JhKfk-GGo2rU0hKPJ-zP-93">
           <mxGeometry x="0.1314" y="-1" relative="1" as="geometry">
             <mxPoint x="-13" as="offset" />
           </mxGeometry>
