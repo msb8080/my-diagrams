@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T08:25:01.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Yt5lOvS8C4T5_PUFgUTu" version="21.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T08:27:21.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="z8Rs9n3Qil1LqhUZ7xW2" version="21.7.0" type="github">
   <diagram name="第 1 页" id="-DtATAsQaKTqwAKupJKH">
     <mxGraphModel dx="989" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,6 +7,9 @@
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-9" value="NLU解析新工程" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="260" y="50" width="360" height="250" as="geometry" />
         </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JhKfk-GGo2rU0hKPJ-zP-11" target="JhKfk-GGo2rU0hKPJ-zP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-11" value="NLU深度解析接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="370" y="240" width="140" height="50" as="geometry" />
         </mxCell>
@@ -14,7 +17,7 @@
           <mxGeometry x="650" y="437" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-18" value="sql2condition工程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="140" height="50" as="geometry" />
+          <mxGeometry x="490" y="590" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-19" value="text2sql后处理接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="680" y="460" width="140" height="50" as="geometry" />
@@ -39,6 +42,24 @@
         </mxCell>
         <mxCell id="JhKfk-GGo2rU0hKPJ-zP-35" value="autogpt-ner结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JhKfk-GGo2rU0hKPJ-zP-36">
           <mxGeometry x="114" y="104" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-44" value="问句转prompt" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-46" value="prompt转sql" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-47" value="sql转模型condition" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-49" value="nlu预处理服务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-50" value="langchain服务&lt;br&gt;(llm)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JhKfk-GGo2rU0hKPJ-zP-51" value="nlu后处理服务" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
