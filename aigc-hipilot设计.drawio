@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T08:36:12.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4BePe9LdG2wCvfe8yYJC" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T08:52:36.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6WoLt_RfSCWj2OCNf8dD" version="23.1.5" type="github">
   <diagram name="第 1 页" id="A8AgMVtB7LvKmUs1XgVh">
-    <mxGraphModel dx="3037" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ccl45ZDLO3o566vft4Xr-63" value="Hipilot-pool-0" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;align=center;fontSize=18;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-670" y="185" width="430" height="305" as="geometry" />
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-91" value="reactor-http-nio-2" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=none;shadow=1;" vertex="1" parent="1">
+        <mxCell id="ccl45ZDLO3o566vft4Xr-91" value="reactor-http-nio-2" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=#cce5ff;strokeColor=#0050ef;shadow=1;labelBackgroundColor=#cce5ff;" vertex="1" parent="1">
           <mxGeometry x="-1490" y="-310" width="1070" height="480" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-10" value="HipilotContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;rounded=1;" vertex="1" parent="1">
@@ -60,22 +60,22 @@
         <mxCell id="ccl45ZDLO3o566vft4Xr-24" value="保证线程切换时上下文信息不丢失" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#e1d5e7;shadow=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-655" y="-1140" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-25" value="HipilotWebFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=default;verticalAlign=top;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-1430" y="-294" width="280" height="244" as="geometry" />
+        <mxCell id="ccl45ZDLO3o566vft4Xr-25" value="HipilotWebFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="-284" width="280" height="244" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-26" value="AIME/可视化组/F10" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-1540" y="-160" width="30" height="60" as="geometry" />
+          <mxGeometry x="-1560" y="-160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-31" value="HipilotContextHolder" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#cdeb8b;strokeColor=#cdeb8b;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-740" width="200" height="110" as="geometry" />
+        <mxCell id="ccl45ZDLO3o566vft4Xr-31" value="HipilotContextHolder" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#cdeb8b;strokeColor=#cdeb8b;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1385" y="25.5" width="190" height="104.5" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-32" value="HipilotContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-770" y="-704" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1360" y="51" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-33" value="ControllerAdvice&lt;br&gt;(GlobalExceptionHandler)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;verticalAlign=top;strokeWidth=0;dashed=1;fontColor=#ffffff;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="-1390" y="-255" width="227.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-34" value="ControllerAspect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;verticalAlign=top;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;" vertex="1" parent="1">
+        <mxCell id="ccl45ZDLO3o566vft4Xr-34" value="ControllerAspect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="-1370" y="-200" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#f20202;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-35" target="ccl45ZDLO3o566vft4Xr-42">
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-35" value="DataVisController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9656f0;strokeColor=#3700CC;strokeWidth=0;dashed=1;fontStyle=1;fontColor=#ffffff;shadow=1;" vertex="1" parent="1">
+        <mxCell id="ccl45ZDLO3o566vft4Xr-35" value="DataVisController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1340" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#cc0033;fillColor=#6a00ff;fontStyle=1;strokeWidth=2;endArrow=block;endFill=1;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-26" target="ccl45ZDLO3o566vft4Xr-35">
@@ -237,6 +237,39 @@
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-95" value="组装prompt" style="whiteSpace=wrap;html=1;fillColor=#9656f0;strokeColor=#BD7000;fontColor=#ffffff;rounded=1;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-930" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-111" value="" style="endArrow=none;html=1;rounded=0;exitX=0.864;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;strokeColor=#0050ef;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-32" target="ccl45ZDLO3o566vft4Xr-116">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1230" y="28" as="sourcePoint" />
+            <mxPoint x="-1229.9999999999998" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.26;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0050ef;endArrow=open;endFill=0;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-115" target="ccl45ZDLO3o566vft4Xr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-115" value="初始化conetxt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-1364" y="-10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-116" value="销毁context" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-1277.5" y="-10" width="77.5" height="24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-118" value="" style="endArrow=none;html=1;rounded=0;exitX=0.377;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;strokeWidth=2;strokeColor=#0050ef;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-25" target="ccl45ZDLO3o566vft4Xr-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1410" y="30" as="sourcePoint" />
+            <mxPoint x="-1360" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.683;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#0050ef;endArrow=open;endFill=0;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-116" target="ccl45ZDLO3o566vft4Xr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-121" value="将请求参数对象的有效信息转存到HipilotContext上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontColor=#0a0a0a;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="-9" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ccl45ZDLO3o566vft4Xr-122" value="" style="endArrow=open;html=1;rounded=0;entryX=0.468;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#005700;endFill=0;fillColor=#008a00;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-34" target="ccl45ZDLO3o566vft4Xr-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1130" y="-20" as="sourcePoint" />
+            <mxPoint x="-1080" y="-70" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
