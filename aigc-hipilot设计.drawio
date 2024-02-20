@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T08:35:40.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Fyku7kZKecSLXD-LnXUC" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T08:36:12.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4BePe9LdG2wCvfe8yYJC" version="23.1.5" type="github">
   <diagram name="第 1 页" id="A8AgMVtB7LvKmUs1XgVh">
-    <mxGraphModel dx="2807" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3037" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,7 +140,7 @@
         <mxCell id="ccl45ZDLO3o566vft4Xr-52" value="HipilotThreadPoolExecutor" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#cdeb8b;strokeColor=#cdeb8b;fontStyle=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="-390" y="-34" width="200" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ccl45ZDLO3o566vft4Xr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontStyle=1;fontSize=13;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-50" target="ccl45ZDLO3o566vft4Xr-52">
+        <mxCell id="ccl45ZDLO3o566vft4Xr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontStyle=1;fontSize=13;strokeColor=#0930f6;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-50" target="ccl45ZDLO3o566vft4Xr-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-54" value="Hipilot-pool-0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;fontStyle=1;shadow=1;fontSize=13;" vertex="1" parent="1">
