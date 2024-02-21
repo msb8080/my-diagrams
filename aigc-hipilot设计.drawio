@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T03:34:50.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="slsTLrE2k67xjYnqSqmg" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T05:58:38.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uAHkhc2pCjezSuYKZfbL" version="23.1.5" type="github">
   <diagram name="第 1 页" id="A8AgMVtB7LvKmUs1XgVh">
-    <mxGraphModel dx="5481" dy="3944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4581" dy="3462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-10" value="HipilotContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontSize=14;fontColor=#fa0000;" parent="1" vertex="1">
-          <mxGeometry x="-187.25" y="-841" width="190" height="212" as="geometry" />
+          <mxGeometry x="-187.25" y="-912" width="190" height="212" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-11" value="- id : String&lt;br style=&quot;font-size: 14px;&quot;&gt;- traceId : String&lt;br style=&quot;font-size: 14px;&quot;&gt;- stream : Boolean&lt;br style=&quot;font-size: 14px;&quot;&gt;- serverHttpResponse: &lt;br style=&quot;font-size: 14px;&quot;&gt;ServerHttpResponse&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;glass=0;fontStyle=1;shadow=1;fontSize=14;" parent="ccl45ZDLO3o566vft4Xr-10" vertex="1">
           <mxGeometry y="26" width="190" height="104" as="geometry" />
@@ -44,13 +44,13 @@
           <mxGeometry y="60" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-20" value="业务上下文实体对象&lt;br style=&quot;font-size: 14px;&quot;&gt;存储上下文信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-770" width="150" height="70" as="geometry" />
+          <mxGeometry x="53" y="-841" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-22" value="提供当前线程的上下文信息的标准访问接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="360" y="-1147" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-24" value="保证线程切换时上下文信息不丢失" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="540" y="-857" width="170" height="70" as="geometry" />
+          <mxGeometry x="519" y="-857" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ccl45ZDLO3o566vft4Xr-25" value="HipilotWebFilter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;strokeWidth=0;dashed=1;fontStyle=1;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="-1430" y="-310" width="280" height="270" as="geometry" />
@@ -392,7 +392,7 @@
         <mxCell id="uoZ4DRqiprj2MRlcNHNz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1;strokeWidth=2;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="-1050" as="sourcePoint" />
-            <mxPoint x="-90" y="-840" as="targetPoint" />
+            <mxPoint x="-90" y="-910" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-90" y="-1060" />
             </Array>
