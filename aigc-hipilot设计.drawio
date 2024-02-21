@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T05:58:38.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="uAHkhc2pCjezSuYKZfbL" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T06:08:51.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OFGQ5mqQAaWdum1GvA49" version="23.1.5" type="github">
   <diagram name="第 1 页" id="A8AgMVtB7LvKmUs1XgVh">
-    <mxGraphModel dx="4581" dy="3462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3481" dy="2873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -400,6 +400,15 @@
         </mxCell>
         <mxCell id="uoZ4DRqiprj2MRlcNHNz-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=1;strokeWidth=2;dashed=1;" edge="1" parent="1" source="ccl45ZDLO3o566vft4Xr-18" target="ccl45ZDLO3o566vft4Xr-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uoZ4DRqiprj2MRlcNHNz-46" value="1.不再使用ServerWebExchange作为业务上下文信息的传输载体。使用&lt;b&gt;&lt;font color=&quot;#f50000&quot;&gt;HipilotContext和HipilotContextHolder&lt;/font&gt;&lt;/b&gt;来实现上下文信息的获取，从而保证获取上下文信息的便利性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;fillColor=#dae8fc;strokeColor=none;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="350" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uoZ4DRqiprj2MRlcNHNz-47" value="2.使用&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;HipilotThreadPoolExecutor&lt;/b&gt;&lt;/font&gt;作为全局线程池，在执行真正的数据处理动作前后进行父线程到子线程context对象的&lt;font color=&quot;#e70d0d&quot;&gt;&lt;b&gt;复制和销毁&lt;/b&gt;&lt;/font&gt;，从而来保证&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;跨线程处理&lt;/font&gt;&lt;/b&gt;时上下文信息的传输" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;fillColor=#e1d5e7;strokeColor=none;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="460" width="530" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uoZ4DRqiprj2MRlcNHNz-48" value="3.在Spring Web Flux框架中，使用&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;WebFilter&lt;/b&gt;&lt;/font&gt;来实现每次请求的HipilotContext的&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;初始化和销毁动作&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;align=left;fillColor=#d5e8d4;strokeColor=none;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="585" width="527.25" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
