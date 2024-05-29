@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T05:53:51.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="2QJn7zgKMFmzmkfKkbUg" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-29T12:35:06.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="BDG1_LXP6iHAHosXJ8YV" version="24.4.9" type="github">
   <diagram name="第 1 页" id="jEDfotLl1M53ruZNgKZM">
-    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1400" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-1" target="xEuWGb0h00F0R__ui8Ct-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-1" value="上下文prompt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-2" target="xEuWGb0h00F0R__ui8Ct-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-2" value="切分成行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-3" target="xEuWGb0h00F0R__ui8Ct-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-3" value="切分成单词&lt;div&gt;(排除空和数字开头的单词)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-4" target="xEuWGb0h00F0R__ui8Ct-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-4" value="需要排除关键词" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="340" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-6" target="xEuWGb0h00F0R__ui8Ct-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-6" value="删除关键词" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xEuWGb0h00F0R__ui8Ct-8" target="xEuWGb0h00F0R__ui8Ct-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-8" value="需要去重" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="530" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xEuWGb0h00F0R__ui8Ct-10" value="关键词去重" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
