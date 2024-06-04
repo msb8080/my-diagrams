@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T08:03:54.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cTM-KXZlrYk_UZ-BVDrh" version="24.4.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-04T08:07:11.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FaES5ax7kTAOkJTDAJBm" version="24.4.13" type="github" pages="2">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="913" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,6 +200,18 @@
         </mxCell>
         <mxCell id="pC8tmylNG9w4AY8oKjVr-7" value="+ editorModified(Editor,CompletionRequestType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pC8tmylNG9w4AY8oKjVr-5">
           <mxGeometry y="34" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="etrh5uqivETsfrvEwou3-6" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;HipilotEditorListener&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="414" width="270" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="etrh5uqivETsfrvEwou3-10" value="- selectionListener:SelectionListener&lt;div&gt;- displaySelectListener:&lt;span style=&quot;background-color: initial;&quot;&gt;DisplaySelectListener&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- dfdSelectListener:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DfdSelectListener&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="etrh5uqivETsfrvEwou3-6">
+          <mxGeometry y="26" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="etrh5uqivETsfrvEwou3-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="etrh5uqivETsfrvEwou3-6">
+          <mxGeometry y="76" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="etrh5uqivETsfrvEwou3-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="etrh5uqivETsfrvEwou3-6">
+          <mxGeometry y="84" width="270" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
