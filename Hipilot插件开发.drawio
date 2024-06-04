@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T08:11:07.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="k49O0Rve_D5XOKc0bfIQ" version="24.4.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-04T08:11:20.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="o9XGAQSzRVPhPKej9Sys" version="24.4.13" type="github" pages="2">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
-    <mxGraphModel dx="913" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1740" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XHfQE0JQowO1Ex6PJmeO-4" value="对话chat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="322" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XHfQE0JQowO1Ex6PJmeO-5" value="右键菜单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="322" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XHfQE0JQowO1Ex6PJmeO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHfQE0JQowO1Ex6PJmeO-6" target="XHfQE0JQowO1Ex6PJmeO-7">
           <mxGeometry relative="1" as="geometry" />
