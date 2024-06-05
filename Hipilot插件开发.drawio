@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T08:31:12.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xa-CWfXoEkl6lCUjHPIW" version="24.4.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-05T08:37:21.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="bgcuZXUvk7f-tbX0evEP" version="24.4.13" type="github" pages="2">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="1877" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -785,6 +785,18 @@
         </mxCell>
         <mxCell id="BNV1qQANp3r8Ao7qIsjn-9" value="+ getContent(): JComponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNV1qQANp3r8Ao7qIsjn-6">
           <mxGeometry y="79" width="210" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="BNV1qQANp3r8Ao7qIsjn-10" value="JsBridgeEnum" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=45;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="970" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BNV1qQANp3r8Ao7qIsjn-11" value="- cide: int&lt;div&gt;- bridge: String&lt;/div&gt;&lt;div&gt;- clazz: Class&amp;lt;? extends JsQueryService&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNV1qQANp3r8Ao7qIsjn-10">
+          <mxGeometry y="45" width="270" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BNV1qQANp3r8Ao7qIsjn-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="BNV1qQANp3r8Ao7qIsjn-10">
+          <mxGeometry y="100" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="BNV1qQANp3r8Ao7qIsjn-13" value="+ getJsQueryServices(): List&amp;lt;JsQueryService&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BNV1qQANp3r8Ao7qIsjn-10">
+          <mxGeometry y="108" width="270" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
