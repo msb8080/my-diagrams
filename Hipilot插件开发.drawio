@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T02:39:00.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SmDXX9BMI9u0Pp2glO1s" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-07T02:49:46.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="oJb5raq6MYTSevHnvfge" version="24.4.14" type="github" pages="3">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="2062" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,17 +218,17 @@
         <mxCell id="pC8tmylNG9w4AY8oKjVr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pC8tmylNG9w4AY8oKjVr-2" target="pC8tmylNG9w4AY8oKjVr-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pC8tmylNG9w4AY8oKjVr-2" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;HiPilotRequestCompletionsAction&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="234" width="220" height="60" as="geometry" />
+        <mxCell id="pC8tmylNG9w4AY8oKjVr-2" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;HiPilotRequestCompletionsAction&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;(快捷键触发补全)&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="-254" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pC8tmylNG9w4AY8oKjVr-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pC8tmylNG9w4AY8oKjVr-2" vertex="1">
-          <mxGeometry y="26" width="220" height="8" as="geometry" />
+          <mxGeometry y="46" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="pC8tmylNG9w4AY8oKjVr-4" value="+ actionPerform(AnActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pC8tmylNG9w4AY8oKjVr-2" vertex="1">
-          <mxGeometry y="34" width="220" height="26" as="geometry" />
+          <mxGeometry y="54" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pC8tmylNG9w4AY8oKjVr-5" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;HiPilotEditorManager&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="354" width="280" height="60" as="geometry" />
+          <mxGeometry x="230" y="-134" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pC8tmylNG9w4AY8oKjVr-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pC8tmylNG9w4AY8oKjVr-5" vertex="1">
           <mxGeometry y="26" width="280" height="8" as="geometry" />
@@ -237,7 +237,7 @@
           <mxGeometry y="34" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="etrh5uqivETsfrvEwou3-6" value="&lt;span style=&quot;text-align: left;&quot;&gt;HipilotEditorListener&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="940" y="210" width="270" height="120" as="geometry" />
+          <mxGeometry x="1360" y="280" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="etrh5uqivETsfrvEwou3-10" value="- selectionListener:SelectionListener&lt;div&gt;- displaySelectListener:&lt;span style=&quot;background-color: initial;&quot;&gt;DisplaySelectListener&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- dfdSelectListener:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DfdSelectListener&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#C73500;fillColor=#fa6800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;fontStyle=1" parent="etrh5uqivETsfrvEwou3-6" vertex="1">
           <mxGeometry y="26" width="270" height="50" as="geometry" />
@@ -249,7 +249,7 @@
           <mxGeometry y="84" width="270" height="36" as="geometry" />
         </mxCell>
         <mxCell id="etrh5uqivETsfrvEwou3-11" value="HipilotCaretListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="426" width="160" height="60" as="geometry">
+          <mxGeometry x="1230" y="496" width="160" height="60" as="geometry">
             <mxRectangle x="650" y="640" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -260,7 +260,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="etrh5uqivETsfrvEwou3-15" value="HipilotDocumentListener" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="426" width="160" height="60" as="geometry">
+          <mxGeometry x="1580" y="496" width="160" height="60" as="geometry">
             <mxRectangle x="650" y="640" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -640,7 +640,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-1" value="WindowFactory&lt;div&gt;(右侧主窗口)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="-350" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="-450" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-2" value="+ field: type" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-1" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -652,7 +652,7 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-5" value="HexinAISettingsPanel&lt;div&gt;(设置窗口)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="-220" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="-320" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-6" value="+ field: type" style="text;strokeColor=#C73500;fillColor=#fa6800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="V8rXi4ClBiKcr-u4A6zK-5" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -664,7 +664,7 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-9" value="ConsoleOutputToolWindow&lt;div&gt;(下方日志窗口)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="-80" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="-180" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-9" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -676,7 +676,7 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-13" value="TypeOverHandler&lt;div&gt;(键盘输入处理器)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="54" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="-46" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-13" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -688,7 +688,7 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-17" value="HipilotWidgetFactory&lt;div&gt;(状态栏)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="200" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="100" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-18" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-17" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -700,7 +700,7 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-21" value="HipilotEditorListener&lt;div&gt;(编辑器监听事件)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
-          <mxGeometry x="-900" y="340" width="160" height="106" as="geometry" />
+          <mxGeometry x="-1150" y="240" width="160" height="106" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-22" value="+ field: type" style="text;strokeColor=#C73500;fillColor=#fa6800;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="V8rXi4ClBiKcr-u4A6zK-21" vertex="1">
           <mxGeometry y="46" width="160" height="26" as="geometry" />
@@ -712,10 +712,10 @@
           <mxGeometry y="80" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-25" value="扩展点&lt;div&gt;extensions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="-70" width="120" height="60" as="geometry" />
+          <mxGeometry x="-790" y="-170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-27" value="HipilotViewWindowService&lt;div&gt;(存储hipilot窗口的多个子窗口实例)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="336" width="210" height="110" as="geometry" />
+          <mxGeometry x="-940" y="236" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-28" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-27" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -727,7 +727,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-31" value="HipilotApplicationSettings&lt;div&gt;(程序配置持久化)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-250" y="-56" width="210" height="110" as="geometry" />
+          <mxGeometry x="-500" y="-156" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-32" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-31" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -739,7 +739,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-35" value="HipilotStatusService&lt;div&gt;(状态监听器)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-250" y="-200" width="210" height="110" as="geometry" />
+          <mxGeometry x="-500" y="-300" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-35" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -751,7 +751,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-39" value="HipilotEditorActionTracker&lt;div&gt;(??)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-250" y="-350" width="210" height="110" as="geometry" />
+          <mxGeometry x="-500" y="-450" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-39" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -763,7 +763,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-43" value="HipilotEditorManager&lt;div&gt;(编辑器管理器)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="329" width="210" height="110" as="geometry" />
+          <mxGeometry x="-710" y="229" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-44" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-43" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -775,7 +775,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-47" value="HipilotCompletionService&lt;div&gt;(补全服务)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="329" width="210" height="110" as="geometry" />
+          <mxGeometry x="-480" y="229" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-48" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-47" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -787,7 +787,7 @@
           <mxGeometry y="84" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-51" value="HipilotAgentProcessService&lt;div&gt;(Agent处理服务)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="180" width="210" height="110" as="geometry" />
+          <mxGeometry x="-470" y="80" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="V8rXi4ClBiKcr-u4A6zK-52" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V8rXi4ClBiKcr-u4A6zK-51" vertex="1">
           <mxGeometry y="50" width="210" height="26" as="geometry" />
@@ -917,6 +917,39 @@
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-7">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-11" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;PreviousCompletionsAction&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;(上一个快捷键选取补全)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-254" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-11">
+          <mxGeometry y="46" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-13" value="+ actionPerform(AnActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-11">
+          <mxGeometry y="54" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-14" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;NextCompletionsAction&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;(下一个快捷键选取补全)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-260" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-14">
+          <mxGeometry y="46" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-16" value="+ actionPerform(AnActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-14">
+          <mxGeometry y="54" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-17" value="动作&lt;div&gt;Actions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-18" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;HipilotCommandListener&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;(输入事件，触发补全)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="-254" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-18">
+          <mxGeometry y="46" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-20" value="+ actionPerform(AnActionEvent): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-18">
+          <mxGeometry y="54" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-21" value="监听器&lt;div&gt;linsteners&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
