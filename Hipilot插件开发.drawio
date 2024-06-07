@@ -1,4 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T06:16:42.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yo6mE-VvIpYAq6bmpG9f" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-07T06:17:32.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QVCcpaNLZBweOtI62CRn" version="24.4.14" type="github" pages="5">
+  <diagram id="7I2OKU_JdKVN7IvxWLzw" name="插件LSP使用">
+    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OyGnIr-OcGqaTo4B0XZ5" name="插件的代码片段逻辑优化">
+    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="2062" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
