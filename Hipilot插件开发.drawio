@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T05:44:42.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="z1-v-BNOhfGCoiwvAYPH" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-07T06:13:39.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-VEVEnAolqHBOSQqguXl" version="24.4.14" type="github" pages="3">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="2062" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,7 +364,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_Gy-yA0UXuPUDicgrO_P-34" value="JavaScriptExecuteUtil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-987" y="1370" width="160" height="86" as="geometry" />
+          <mxGeometry x="-1450" y="1400" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="_Gy-yA0UXuPUDicgrO_P-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="_Gy-yA0UXuPUDicgrO_P-34" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -376,7 +376,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_Gy-yA0UXuPUDicgrO_P-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;ExecutionType&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-987" y="1535" width="160" height="90" as="geometry" />
+          <mxGeometry x="-1450" y="1565" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_Gy-yA0UXuPUDicgrO_P-47" value="AbstractCodeFunctionAction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="30" y="1095" width="200" height="86" as="geometry" />
@@ -910,16 +910,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-7" value="LoginJsQueryServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2974" y="2070" width="160" height="86" as="geometry" />
+          <mxGeometry x="-2840" y="2160" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-7">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-7">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-7">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-10" value="+ handler(String): Response&lt;div&gt;+ getBridge(): JsBridgeEnum&lt;/div&gt;&lt;div&gt;- loginHandle&lt;span style=&quot;background-color: initial;&quot;&gt;(String): Response&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-7">
+          <mxGeometry y="60" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-11" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;PreviousCompletionsAction&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400; background-color: rgb(255, 255, 255);&quot;&gt;(上一个快捷键选取补全)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="-254" width="220" height="80" as="geometry" />
