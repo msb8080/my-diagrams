@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T05:34:26.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="taTjeCsgvmBEhawr6Ur4" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-07T05:43:23.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zyCsVWG31U_strqOkF5h" version="24.4.14" type="github" pages="3">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="2062" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1204,22 +1204,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-102" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;SimilarHistoryFile&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="596" width="321" height="60" as="geometry" />
+          <mxGeometry x="-480" y="596" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-103" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-102">
-          <mxGeometry y="26" width="321" height="8" as="geometry" />
+          <mxGeometry y="26" width="500" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-104" value="+ builder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-102">
-          <mxGeometry y="34" width="321" height="26" as="geometry" />
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-104" value="+ getSimilarText(String, List&amp;lt;HipilotCompleteDTO.FileContentDTO): List&amp;lt;SimilarText&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-102">
+          <mxGeometry y="34" width="500" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-105" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;CompletionPromptUtil&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="430" width="321" height="60" as="geometry" />
+          <mxGeometry x="-290" y="400" width="321" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-106" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-105">
           <mxGeometry y="26" width="321" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-107" value="+ builder()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-105">
-          <mxGeometry y="34" width="321" height="26" as="geometry" />
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-107" value="+ getPrompt(EditorReuqest): String&lt;div&gt;+ getSuffix(EditorReuqest): String&lt;br&gt;&lt;div&gt;+ currentFileRelativePath&lt;span style=&quot;background-color: initial;&quot;&gt;(EditorReuqest)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getRecentFile&lt;span style=&quot;background-color: initial;&quot;&gt;(EditorReuqest)：List&amp;lt;FileContentDTO&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ getImportFile&lt;span style=&quot;background-color: initial;&quot;&gt;(EditorReuqest)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：List&amp;lt;FileContentDTO&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-105">
+          <mxGeometry y="34" width="321" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-108" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.986;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.02;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fDmsWzTIaYAzvzuV4rJ0-37" target="fDmsWzTIaYAzvzuV4rJ0-106">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="420" as="sourcePoint" />
+            <mxPoint x="140" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-109" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.023;exitY=-0.123;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fDmsWzTIaYAzvzuV4rJ0-35" target="fDmsWzTIaYAzvzuV4rJ0-102">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="740" as="sourcePoint" />
+            <mxPoint x="180" y="740" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
