@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T02:52:48.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="89dQcM0Xyk8qQ96Ij36d" version="24.4.14" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-07T02:55:24.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1ADpgzZHKXkMK2NB5PeU" version="24.4.14" type="github" pages="3">
   <diagram name="流程图" id="ejbXyB2wGvKDIN8Tfu_J">
     <mxGraphModel dx="2062" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -961,13 +961,28 @@
           <mxGeometry y="34" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-25" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;JavaAnalysis&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="274" width="321" height="60" as="geometry" />
+          <mxGeometry x="189" y="391" width="321" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-25">
           <mxGeometry y="26" width="321" height="8" as="geometry" />
         </mxCell>
         <mxCell id="fDmsWzTIaYAzvzuV4rJ0-27" value="+ getNextFunctionSuffix(PsiFile,Document,int,int): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-25">
           <mxGeometry y="34" width="321" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-28" value="&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;JavaCompletionReuqestStrategy&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="280" width="321" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-28">
+          <mxGeometry y="26" width="321" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-30" value="+ completionPromptBuilderProcess(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fDmsWzTIaYAzvzuV4rJ0-28">
+          <mxGeometry y="34" width="321" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fDmsWzTIaYAzvzuV4rJ0-32" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.477;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fDmsWzTIaYAzvzuV4rJ0-30" target="fDmsWzTIaYAzvzuV4rJ0-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="74" y="307" as="sourcePoint" />
+            <mxPoint x="234" y="307" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
