@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T07:30:25.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="1ztLkoGS9fw8c83GWwG2" version="24.4.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-17T07:19:40.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JPMqoInIQywrZHwsrNEN" version="24.5.4" type="github" pages="5">
   <diagram id="7I2OKU_JdKVN7IvxWLzw" name="插件LSP使用">
     <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,26 +12,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IImj0_gD9Dd7rKmynNRi-1" target="IImj0_gD9Dd7rKmynNRi-2">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IImj0_gD9Dd7rKmynNRi-1" target="IImj0_gD9Dd7rKmynNRi-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-1" value="从最近打开的20个文件找到和prompt最相似的一个&lt;div&gt;similarTexts&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-1" value="从最近打开的20个文件找到和prompt最相似的一个&lt;div&gt;similarTexts&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="540" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IImj0_gD9Dd7rKmynNRi-2" target="IImj0_gD9Dd7rKmynNRi-3">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IImj0_gD9Dd7rKmynNRi-2" target="IImj0_gD9Dd7rKmynNRi-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-2" value="获取最近打开的10个文件&lt;div&gt;promptFile&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-2" value="获取最近打开的10个文件&lt;div&gt;promptFile&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="650" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-3" value="prompt处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-3" value="prompt处理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="760" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-5" value="recentFile=promptFile+similarTexts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-5" value="recentFile=promptFile+similarTexts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="175" y="880" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IImj0_gD9Dd7rKmynNRi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IImj0_gD9Dd7rKmynNRi-3" target="IImj0_gD9Dd7rKmynNRi-5">
+        <mxCell id="IImj0_gD9Dd7rKmynNRi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IImj0_gD9Dd7rKmynNRi-3" target="IImj0_gD9Dd7rKmynNRi-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgN06W68YnIRSOQeb265-1" value="基于词法token的相似代码片段匹配处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="145" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
