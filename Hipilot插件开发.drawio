@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T12:46:55.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="h3IJIbiafkKkZG6JvDN7" version="24.5.4" type="github" pages="5">
-  <diagram id="7I2OKU_JdKVN7IvxWLzw" name="插件LSP使用">
+<mxfile host="app.diagrams.net" modified="2024-06-26T02:40:09.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="d7XcWzR6p_VdMI0rMeo_" version="24.6.3" type="github" pages="5">
+  <diagram id="7I2OKU_JdKVN7IvxWLzw" name="插件prompt优化-importFile生成">
     <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
