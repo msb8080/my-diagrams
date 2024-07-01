@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T12:45:34.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4NgVeNBNK3mcOh4PD5nI" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-01T12:51:50.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="I5zrfiMwxBZZShOBq3dS" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
-    <mxGraphModel dx="1050" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-3" value="模型提示词个性化配置参数" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="50" width="390" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-1" value="&lt;div&gt;提示词最大长度&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;promptMaxSize&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(11000)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-2" value="&lt;div&gt;下文最大长度&lt;/div&gt;&lt;div&gt;suffix&lt;span style=&quot;background-color: initial;&quot;&gt;MaxSize&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(1500)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-4" value="相似文本最大长度占上文比例&lt;div&gt;similarMaxRate&lt;/div&gt;&lt;div&gt;(0.5)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="120" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
