@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:28:57.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mHKYyG73y9J51OLnGks0" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T05:33:36.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UE5aBMlP08p99yltkeyA" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
-    <mxGraphModel dx="408" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2673" dy="3042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,8 +327,35 @@
         <mxCell id="B659ajGcxB3UIlLO64on-57" value="&lt;div&gt;similarMaxRate&lt;br&gt;&lt;/div&gt;相似文本最大长度占上文比例&lt;div&gt;(0.5)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1587.5" y="870" width="162.5" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-61" target="B659ajGcxB3UIlLO64on-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-61" value="RecentFile记录&lt;div&gt;至少10个最近打开的非空文件&lt;/div&gt;&lt;div&gt;和finalSimilarFileNumber个相似文件&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1461.13" y="2300" width="212.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-63" target="B659ajGcxB3UIlLO64on-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-63" value="ImportFile记录当前文件相关的文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1507.505" y="2420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-65" target="B659ajGcxB3UIlLO64on-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-65" value="prompt长度控制&lt;span style=&quot;background-color: initial;&quot;&gt;优先级：&lt;/span&gt;&lt;div&gt;上文&amp;gt;下文&amp;gt;最近打开文件&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="2560" width="162.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-67" value="&lt;div&gt;promptMaxSize&lt;br&gt;&lt;/div&gt;&lt;div&gt;提示词最大长度&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(11000)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1673.88" y="2560" width="162.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-68" target="B659ajGcxB3UIlLO64on-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-68" value="组装其他信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1507.245" y="2700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-70" value="生成请求代码续写后端服务的请求参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1507.245" y="2840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
