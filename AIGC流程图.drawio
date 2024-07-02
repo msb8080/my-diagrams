@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T02:57:32.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="I8jLaXG7FSt5XZ4mmGIv" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:02:17.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="IKiwugzovUoPAwtuCqhM" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1877" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,6 +271,19 @@
         <mxCell id="B659ajGcxB3UIlLO64on-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-34" target="B659ajGcxB3UIlLO64on-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-45" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-37">
+          <mxGeometry x="-0.3077" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-34" target="B659ajGcxB3UIlLO64on-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-46" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-42">
+          <mxGeometry x="-0.4474" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-34" value="totalSize大于最大长度的90%" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1747.5" y="2180" width="185" height="80" as="geometry" />
         </mxCell>
@@ -280,8 +293,17 @@
         <mxCell id="B659ajGcxB3UIlLO64on-36" value="填充RecentText对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1780" y="2338" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-39" value="使用方法和变量声明" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="2460" width="120" height="60" as="geometry" />
+        <mxCell id="B659ajGcxB3UIlLO64on-39" value="使用方法和变量声明作为文件内容，去除超过最大长度的文件内容" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="2460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-41" target="B659ajGcxB3UIlLO64on-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-41" value="填充RecentText对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="2338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-43" value="使用去除注释的代码作为&lt;span style=&quot;background-color: initial;&quot;&gt;文件内容，去除超过最大长度的文件内容&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="2460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
