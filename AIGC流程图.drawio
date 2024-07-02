@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:39:09.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6apeblKxX8hOIrLw9JrI" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T05:43:01.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_-5SemclF8PROv5zRvce" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1313" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,20 +10,20 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-6" target="raw9m31f8Q8C_QpOb1Fa-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-6" value="获取最近打开20个文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1175" y="-420" width="150" height="60" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-6" value="获取最近打开的&lt;span style=&quot;background-color: initial;&quot;&gt;sourceS&lt;/span&gt;imilar&lt;span style=&quot;background-color: initial;&quot;&gt;File&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Number&lt;/span&gt;个文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="-420" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-7" target="raw9m31f8Q8C_QpOb1Fa-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-7" value="在每个文件中找到与上文WINDOW_SIZE行代码最相似的TOP_N个代码块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="-300" width="180" height="70" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-7" value="在每个文件中找到与上文similarMatchWindowSize行代码最相似的finalSimilarFileNumber+1个代码块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1139.5" y="-300" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-12" target="raw9m31f8Q8C_QpOb1Fa-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-12" value="汇总所有相似代码块，取分数最高的TOP_N-1个" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="-190" width="120" height="60" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-12" value="汇总所有相似代码块，取分数最高的finalSimilarFileNumber个" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1164.5" y="-190" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-14" target="raw9m31f8Q8C_QpOb1Fa-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -312,13 +312,13 @@
         <mxCell id="B659ajGcxB3UIlLO64on-43" value="使用去除注释的代码作为&lt;span style=&quot;background-color: initial;&quot;&gt;文件内容，去除超过最大长度的文件内容&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1972.5" y="2218" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-48" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sourceS&lt;/span&gt;imilar&lt;span style=&quot;background-color: initial;&quot;&gt;File&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(相似文件查找的文件个数)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-48" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sourceS&lt;/span&gt;imilar&lt;span style=&quot;background-color: initial;&quot;&gt;File&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(相似文件查找的文件个数)&lt;/div&gt;&lt;div&gt;20&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="850" y="-420" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-49" value="&lt;div&gt;similarMatchWindowSize&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(匹配代码行数)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-49" value="&lt;div&gt;similarMatchWindowSize&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(匹配代码行数)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;60&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="850" y="-300" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-50" value="&lt;div&gt;finalSimilarFileNumber&lt;/div&gt;&lt;div&gt;(最终相似代码片段个数)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-50" value="&lt;div&gt;finalSimilarFileNumber&lt;/div&gt;&lt;div&gt;(最终相似代码片段个数)&lt;/div&gt;&lt;div&gt;1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="850" y="-160" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-54" value="&lt;div&gt;&lt;div&gt;suffix&lt;span style=&quot;background-color: initial;&quot;&gt;MaxSize&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;下文最大长度&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(1500)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
