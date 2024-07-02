@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:06:37.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xRZSL21doAodYccM8IOp" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:07:54.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="YDrH7IPKnR2MzEMfiUYb" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="2062" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,9 +30,6 @@
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-7" value="在每个文件中找到与上文WINDOW_SIZE行代码最相似的TOP_N个代码块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="-300" width="180" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-10" value="WINDOW_SIZE&lt;div&gt;（60)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-12" target="raw9m31f8Q8C_QpOb1Fa-14">
           <mxGeometry relative="1" as="geometry" />
@@ -307,6 +304,9 @@
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-43" value="使用去除注释的代码作为&lt;span style=&quot;background-color: initial;&quot;&gt;文件内容，去除超过最大长度的文件内容&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1980" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-48" value="SIMILAR_SEARCH_FILE_NUMBER" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-420" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
