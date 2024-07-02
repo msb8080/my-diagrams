@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:23:49.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="UJy6Dd_Xoh5is4i8fbcm" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:24:06.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="g48akH_XoI5ifN40HIDL" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
-    <mxGraphModel dx="1315" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,8 +156,8 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-43" target="raw9m31f8Q8C_QpOb1Fa-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-43" value="根据相似比计算本次相似文本的最大长度&lt;div&gt;similarMaxLength&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="870" width="120" height="60" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-43" value="根据similarMaxRate计算本次相似文本的最大长度&lt;div&gt;similarMaxLength&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1315.5" y="870" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -326,7 +326,7 @@
           <mxGeometry x="1597.5" y="290" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-57" value="&lt;div&gt;similarMaxRate&lt;br&gt;&lt;/div&gt;相似文本最大长度占上文比例&lt;div&gt;(0.5)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1587.5" y="880" width="162.5" height="70" as="geometry" />
+          <mxGeometry x="1587.5" y="870" width="162.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
