@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:26:27.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xoo0RYB01NgGGinzaYkP" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:28:05.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="soJRkUmg4Q-qthtDtNEW" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1740" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-3" value="截取的长度大于超出的长度" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="1341" width="95" height="80" as="geometry" />
+          <mxGeometry x="1502.5" y="1350" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-5" target="B659ajGcxB3UIlLO64on-11">
           <mxGeometry relative="1" as="geometry" />
