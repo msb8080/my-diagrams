@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:47:51.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aU_0P4z_kgKWqMr2JkBL" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T05:56:41.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0pJs07krX-_h5_Knw3SW" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1313" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,11 @@
         <mxCell id="B659ajGcxB3UIlLO64on-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-15" target="B659ajGcxB3UIlLO64on-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-86" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-84">
+          <mxGeometry x="-0.0127" y="-1" relative="1" as="geometry">
+            <mxPoint x="-20" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-15" value="当前光标位于注释" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1187.5" y="40" width="125" height="80" as="geometry" />
         </mxCell>
@@ -55,7 +60,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-20" value="根据suffix&lt;span style=&quot;background-color: initial;&quot;&gt;MaxSize&lt;/span&gt;对下文内容进行截取" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-23" target="raw9m31f8Q8C_QpOb1Fa-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -80,7 +85,7 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-29" target="raw9m31f8Q8C_QpOb1Fa-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-29" value="计算上下文超过最大限制的长度&lt;div&gt;excessLen&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-29" value="计算上下文超过最大限制的长度&lt;div&gt;excessLen1&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1330" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-31" target="raw9m31f8Q8C_QpOb1Fa-33" edge="1">
@@ -105,13 +110,13 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-33" target="raw9m31f8Q8C_QpOb1Fa-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-33" value="上文从头删除多余内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-33" value="上文从头删除多余内容(excessLen1)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1212.5" y="605.99" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-35" target="raw9m31f8Q8C_QpOb1Fa-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-35" value="下文从尾删除多余内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-35" value="下文从尾删除多余内容(excessLen1)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1487.5" y="605.99" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-37" target="raw9m31f8Q8C_QpOb1Fa-43" edge="1">
@@ -139,8 +144,8 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-43" target="raw9m31f8Q8C_QpOb1Fa-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-43" value="根据similarMaxRate计算本次相似文本的最大长度&lt;div&gt;similarMaxLength&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1315.5" y="870" width="170" height="60" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-43" value="根据similarMaxRate计算本次相似文本能补全到上文的最大长度&lt;div&gt;similarMaxLength&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1313.5" y="870" width="174.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -148,8 +153,8 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-48" value="相似文本超过similarMaxLength" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1335.5" y="970" width="130" height="80" as="geometry" />
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-48" value="相似文本有效长度超过similarMaxLength" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1323.5" y="970" width="154.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-50" target="B659ajGcxB3UIlLO64on-11">
           <mxGeometry relative="1" as="geometry">
@@ -171,7 +176,7 @@
         <mxCell id="B659ajGcxB3UIlLO64on-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-56" target="B659ajGcxB3UIlLO64on-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="raw9m31f8Q8C_QpOb1Fa-56" value="计算超出的长度&lt;div&gt;excessLen&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="raw9m31f8Q8C_QpOb1Fa-56" value="计算超出的长度&lt;div&gt;excessLen2&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1507.25" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-1" target="B659ajGcxB3UIlLO64on-3">
@@ -180,12 +185,12 @@
         <mxCell id="B659ajGcxB3UIlLO64on-1" value="计算上文需要截取的长度len" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1507.25" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-3" target="B659ajGcxB3UIlLO64on-5">
+        <mxCell id="B659ajGcxB3UIlLO64on-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-3" target="B659ajGcxB3UIlLO64on-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-9" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-6">
           <mxGeometry x="-0.1644" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-27" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-3" target="B659ajGcxB3UIlLO64on-7">
@@ -193,23 +198,33 @@
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-8">
           <mxGeometry x="-0.0548" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-3" value="截取的长度大于&lt;div&gt;超出的长度&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-3" value="需要截取的长度大于&lt;div&gt;超出的长度&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1493.75" y="1350" width="147.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-5" target="B659ajGcxB3UIlLO64on-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1411" y="1560" />
+              <mxPoint x="1568" y="1560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-5" value="相似文本不传递" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1507.5" y="1470" width="120" height="60" as="geometry" />
+          <mxGeometry x="1351.25" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-7" target="B659ajGcxB3UIlLO64on-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1713" y="1560" />
+              <mxPoint x="1568" y="1560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-7" value="上文截取内容，补充相似文本" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1654" y="1470" width="120" height="60" as="geometry" />
+          <mxGeometry x="1652.5" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-11" target="B659ajGcxB3UIlLO64on-13">
           <mxGeometry relative="1" as="geometry" />
@@ -234,7 +249,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-13" value="不传递最近文件和相似文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1285" y="1600" width="120" height="60" as="geometry" />
+          <mxGeometry x="1285" y="1678" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-15" value="截断上文，保证上下文长度不超过限制" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1285" y="1798" width="120" height="60" as="geometry" />
@@ -334,7 +349,7 @@
         <mxCell id="B659ajGcxB3UIlLO64on-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-63" target="B659ajGcxB3UIlLO64on-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-63" value="ImportFile记录当前文件相关的文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-63" value="ImportFile记录当前文件相关的文件" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1507.505" y="2420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-65" target="B659ajGcxB3UIlLO64on-68">
@@ -380,7 +395,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-80" value="更新场景为注释补全" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
