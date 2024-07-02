@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:58:39.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JRr8hpzX3qdfVc6Zf6MY" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:00:08.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qEraJn5bO3jJsgqcFBI_" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1313" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,8 +150,18 @@
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-91" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="raw9m31f8Q8C_QpOb1Fa-51">
+          <mxGeometry x="-0.3713" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-92" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="raw9m31f8Q8C_QpOb1Fa-55">
+          <mxGeometry x="-0.2694" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-48" value="相似文本有效长度超过similarMaxLength" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1323.5" y="970" width="154.5" height="80" as="geometry" />
