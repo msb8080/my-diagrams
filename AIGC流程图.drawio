@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T02:10:44.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uvXhp059CgELp3pkitNz" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T02:36:04.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vbAuhGdoCkik7jLDWRaN" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1877" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,11 +203,68 @@
         <mxCell id="B659ajGcxB3UIlLO64on-3" value="截取的长度大于超出的长度" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1527.5" y="1510" width="95" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-5" target="B659ajGcxB3UIlLO64on-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-5" value="相似文本不传递" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1515" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-7" value="上文截取内容，补充相似文本" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1654" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-11" target="B659ajGcxB3UIlLO64on-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-14">
+          <mxGeometry x="-0.44" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-11" target="B659ajGcxB3UIlLO64on-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-25">
+          <mxGeometry x="-0.3201" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-11" value="当前光标所在节点的&lt;div&gt;上一个非空节点为注释&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1478.75" y="1810" width="192.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-13" target="B659ajGcxB3UIlLO64on-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-13" value="不传递最近文件和相似文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-15" value="截断上文，保证上下文长度不超过限制" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-24" target="B659ajGcxB3UIlLO64on-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-24" value="计算上文+下文+相似文本的长度总和totalSize" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-27" target="B659ajGcxB3UIlLO64on-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B659ajGcxB3UIlLO64on-30">
+          <mxGeometry x="-0.1867" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-27" target="B659ajGcxB3UIlLO64on-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-27" value="totalSize大于最大长度的95%" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1482.5" y="2080" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-29" value="清空最近文件" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-34" value="totalSize大于最大长度的90%" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1747.5" y="2170" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
