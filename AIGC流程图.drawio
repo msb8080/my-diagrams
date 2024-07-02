@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T05:36:44.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="OTzCS3ParQbtp-_-FtTf" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T05:36:52.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4Pfh6EF51lvRKzLZsixX" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
-    <mxGraphModel dx="913" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1313" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B659ajGcxB3UIlLO64on-79" value="prompt可配置项-插件待支持" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="740" y="603" width="230" height="354.01" as="geometry" />
+          <mxGeometry x="860" y="640" width="230" height="354.01" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-6" target="raw9m31f8Q8C_QpOb1Fa-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -361,25 +361,25 @@
           <mxGeometry x="1507.245" y="2840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-72" value="prompt可配置项-插件已支持" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="510" y="605.99" width="190" height="354.01" as="geometry" />
+          <mxGeometry x="630" y="642.99" width="190" height="354.01" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-73" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sourceS&lt;/span&gt;imilar&lt;span style=&quot;background-color: initial;&quot;&gt;File&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(相似文件查找的文件个数)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="775" y="640" width="160" height="60" as="geometry" />
+          <mxGeometry x="895" y="677" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-74" value="&lt;div&gt;similarMatchWindowSize&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(匹配代码行数)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="775" y="720" width="160" height="60" as="geometry" />
+          <mxGeometry x="895" y="757" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-75" value="&lt;div&gt;finalSimilarFileNumber&lt;/div&gt;&lt;div&gt;(最终相似代码片段个数)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="775" y="800" width="160" height="60" as="geometry" />
+          <mxGeometry x="895" y="837" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-76" value="&lt;div&gt;&lt;div&gt;suffix&lt;span style=&quot;background-color: initial;&quot;&gt;MaxSize&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;下文最大长度&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(1500)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="530" y="640" width="162.5" height="60" as="geometry" />
+          <mxGeometry x="650" y="677" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-77" value="&lt;div&gt;promptMaxSize&lt;br&gt;&lt;/div&gt;&lt;div&gt;提示词最大长度&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(11000)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="530" y="710" width="162.5" height="60" as="geometry" />
+          <mxGeometry x="650" y="747" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-78" value="&lt;div&gt;similarMaxRate&lt;br&gt;&lt;/div&gt;相似文本最大长度占上文比例&lt;div&gt;(0.5)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="530" y="780" width="162.5" height="70" as="geometry" />
+          <mxGeometry x="650" y="817" width="162.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
