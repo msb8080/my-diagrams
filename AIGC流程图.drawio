@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T06:00:21.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TRhls6n3mboAPP4bm5Wb" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T06:05:49.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x3242C5YVKX-rPE-r3uD" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="1313" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
         <mxCell id="B659ajGcxB3UIlLO64on-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-36" target="B659ajGcxB3UIlLO64on-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-36" value="填充RecentText对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-36" value="填充RecentFile对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1772.5" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-39" target="B659ajGcxB3UIlLO64on-61">
@@ -342,7 +342,7 @@
         <mxCell id="B659ajGcxB3UIlLO64on-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-41" target="B659ajGcxB3UIlLO64on-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B659ajGcxB3UIlLO64on-41" value="填充RecentText对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="B659ajGcxB3UIlLO64on-41" value="填充RecentFile对象中类文本信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1972.5" y="2060" width="137.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B659ajGcxB3UIlLO64on-43" target="B659ajGcxB3UIlLO64on-61">
