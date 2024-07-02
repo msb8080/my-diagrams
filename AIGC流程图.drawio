@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:21:22.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="21Q_Qk8blnC8cRX6MYk2" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:22:27.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_-vE_lvbe_KdMqdxRZ-S" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
-    <mxGraphModel dx="1740" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,20 +92,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-27" value="上文+下文长度大于&lt;div&gt;promptMaxSize&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1292.5" y="280" width="195" height="80" as="geometry" />
+          <mxGeometry x="1292.5" y="260" width="195" height="80" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-29" target="raw9m31f8Q8C_QpOb1Fa-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-29" value="计算上下文超过最大限制的长度&lt;div&gt;excessLen&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1330" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-31" target="raw9m31f8Q8C_QpOb1Fa-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-41" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="raw9m31f8Q8C_QpOb1Fa-34" vertex="1" connectable="0">
           <mxGeometry x="-0.1156" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-31" target="raw9m31f8Q8C_QpOb1Fa-35" edge="1">
@@ -117,47 +117,47 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-31" value="上文长度大于下文长度" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="570" width="140" height="80" as="geometry" />
+          <mxGeometry x="1320" y="505" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-33" target="raw9m31f8Q8C_QpOb1Fa-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-33" value="上文从头删除多余内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1212.5" y="700" width="100" height="60" as="geometry" />
+          <mxGeometry x="1212.5" y="605.99" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-35" target="raw9m31f8Q8C_QpOb1Fa-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-35" value="下文从尾删除多余内容" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1487.5" y="700" width="100" height="60" as="geometry" />
+          <mxGeometry x="1487.5" y="605.99" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-37" target="raw9m31f8Q8C_QpOb1Fa-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1263" y="900" />
-              <mxPoint x="1400" y="900" />
+              <mxPoint x="1263" y="830" />
+              <mxPoint x="1400" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-37" value="更新上文长度" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1202.5" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="1202.5" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-39" target="raw9m31f8Q8C_QpOb1Fa-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1538" y="900" />
-              <mxPoint x="1400" y="900" />
+              <mxPoint x="1537" y="830" />
+              <mxPoint x="1400" y="830" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-39" value="更新下文长度" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1477.5" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="1477.5" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-43" target="raw9m31f8Q8C_QpOb1Fa-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-43" value="根据相似比计算本次相似文本的最大长度&lt;div&gt;similarMaxLength&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="1340" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-48" target="raw9m31f8Q8C_QpOb1Fa-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -166,16 +166,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-48" value="相似文本超过similarMaxLength" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1335" y="1060" width="130" height="80" as="geometry" />
+          <mxGeometry x="1335.5" y="970" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-50" value="清空相似文本，不放入prompt中" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1172.5" y="1169" width="120" height="60" as="geometry" />
+          <mxGeometry x="1173" y="1079" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-54" target="raw9m31f8Q8C_QpOb1Fa-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-54" value="上文+下文+相似文本长度&amp;gt;最大长度" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="1159" width="130" height="80" as="geometry" />
+          <mxGeometry x="1510.5" y="1069" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B659ajGcxB3UIlLO64on-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-56" target="B659ajGcxB3UIlLO64on-1">
           <mxGeometry relative="1" as="geometry" />
