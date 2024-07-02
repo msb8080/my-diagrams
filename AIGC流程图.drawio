@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T03:05:17.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4Dk3mEPw7HGoF3P71znN" version="24.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-07-02T03:06:37.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xRZSL21doAodYccM8IOp" version="24.6.4" type="github" pages="2">
   <diagram id="vzhNXn0cpR2loQYzylK0" name="代码续写prompt构建">
     <mxGraphModel dx="2062" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,19 +23,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-6" value="获取最近打开20个文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="50" width="150" height="60" as="geometry" />
+          <mxGeometry x="1175" y="-420" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-7" target="raw9m31f8Q8C_QpOb1Fa-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-7" value="在每个文件中找到与上文WINDOW_SIZE行代码最相似的TOP_N个代码块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="715" y="165" width="180" height="70" as="geometry" />
+          <mxGeometry x="1160" y="-300" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-10" value="WINDOW_SIZE&lt;div&gt;（60)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="B659ajGcxB3UIlLO64on-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="raw9m31f8Q8C_QpOb1Fa-12" target="raw9m31f8Q8C_QpOb1Fa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-12" value="汇总所有相似代码块，取分数最高的TOP_N-1个" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="745" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="1190" y="-190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="raw9m31f8Q8C_QpOb1Fa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="raw9m31f8Q8C_QpOb1Fa-14" target="raw9m31f8Q8C_QpOb1Fa-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
